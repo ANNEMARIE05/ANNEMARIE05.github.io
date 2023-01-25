@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+header{
+    background: url(image/auto-acc.jpg)no-repeat;
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+header img{
+    height: 80px;
+    width: 110px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+header p{
+    margin-left: 45px;
+    margin-top: -2px;
+    color: aliceblue;
+}
