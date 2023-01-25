@@ -3,12 +3,10 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
-    
+
 header{
-    background: url(image/auto-acc.jpg)no-repeat;
-    height: 500px;
+    height: 120px;
     width: 100%;
-    background-size: 100% 100%;
 }
 
 header img{
@@ -22,5 +20,74 @@ header img{
 header p{
     margin-left: 45px;
     margin-top: -2px;
-    color: aliceblue;
+}
+
+.dropdownmenu {
+    display: flex;
+    float: right;
+  }
+
+  .dropdownmenu ul {
+    display: none;
+  }
+
+  .dropdownmenu,
+  .dropdownmenu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .dropdownmenu a {
+    display: block;
+    width: 190px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 3px 15px;
+    text-align: center;
+  }
+
+  .dropdownmenu li {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .dropdownmenu li:hover ul {
+    display: block;
+    border: 1px solid black;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    z-index: 100;
+  }
+
+  .dropdownmenu li:hover ul li{
+    border: 1px solid black;
+  }
+
+  .dropdownmenu, .dropdownmenu ul {
+    list-style-type: none;
+    margin-top: -90px;
+    margin-right: 100px;
+    padding: 0px;
+}
+
+.menu{
+    margin-top: -8px;
+    background: url(image/fond.jpg) no-repeat;
+    height: 755px;
+    background-size: 100% 100%;
+    width: 100%;
+    
+}
+
+.menu h1{
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    color: white;
+    top: 350px;
 }
