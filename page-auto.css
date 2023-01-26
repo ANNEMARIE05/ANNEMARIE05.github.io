@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -75,19 +76,178 @@ header p{
     padding: 0px;
 }
 
-.menu{
+.page-acceuil{
     margin-top: -8px;
     background: url(image/fond.jpg) no-repeat;
     height: 755px;
     background-size: 100% 100%;
+    position: absolute;
     width: 100%;
     
 }
 
-.menu h1{
-    text-align: center;
+.page-acceuil h1{
     position: relative;
     font-size: 50px;
     color: white;
-    top: 350px;
+}
+
+.page-acceuil .write{
+    margin-left: 300px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.page-acceuil .write p{
+    line-height: 25px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.menu{
+    margin-top: 800px;
+}
+.menu .mon-h1{
+    margin-left: 350px;
+    font-size: 50px;
+}
+.menu section div{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.238);
+    height: 500px;
+    width: 400px;
+    margin: 10px 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+.menu section img{
+    height: 250px;
+    width: 400px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.menu section p{
+    font-family: fantasy;
+}
+.menu section{
+    margin-left: 350px;
+}
+.vide {
+    height: 100px;
+}
+.importances{
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.029);
+}
+.importances .mon-H1{
+    text-align: center;
+    font-size: 40px;
+    top: 50px;
+    position: relative;
+}
+.importances .mon-p{
+    text-align: center;
+    top: 70px;
+    position: relative;
+    font-family: arial;
+}
+.importances section div{
+    border: 1px solid rgba(0, 0, 0, 0.238);
+    height: 450px;
+    width: 380px;
+    margin: 25px 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+.importances section{
+    display: flex;
+    justify-content: center;
+    margin: 5% 20%;
+}
+.importances section h3{
+    font-family: Verdana;
+    margin: 30px 0px 20px 30px;
+}
+.importances section p{
+    font-family: sans-serif;
+    margin: 10px 30px 0;
+}
+.importances hr{
+    width: 300px;
+    margin: 15% 10%;
+}
+.importances section h5{
+    font-size: 17px;
+    margin: 1px 30px 0;
+    font-family: Verdana;
+}
+.importances i{
+    font-size: 20px;
+    margin: 25px 30px 0;
+}
+.assurance{
+    margin: 20px 18%;
+    text-align: center;
+    color: white;
+    height: 160px;
+    width: 1300px;
+    background-color: rgba(0, 0, 255, 0.742);
+    border-radius: 25px;
+}
+.assurance h1{
+    position: relative;
+    top: 40px;
+}
+.assurance p{
+    position: relative;
+    top: 30px;
+
+}
+.rappel{
+    top: 50px;
+    position: relative;
+    height: 520px;
+    background-color: #ffede6;
+}
+.rappel .texte {
+    text-align: center;
+}
+.travail{
+    display: flex;
+    justify-content: center;
+}
+.travail div{
+    height: 280px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.654);
+    border-radius: 25px;
+    margin: 50px 15px;
+}
+.rappel .texte h1{
+    font-size: 48px;
+    position: relative;
+    top: 30px;
+}
+.rappel .texte p{
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+}
+.travail div .r-H1{
+    margin: 20px 0px 20px 20px;
+    font-family: Verdana;
+}
+.travail div .r-H2{
+    margin: 20px 0px 20px 20px;
+    font-family: Verdana;
+}
+.travail div .r-H3{
+    margin: 20px 0px 20px 20px;
+    font-family: Verdana;
+}
+.point{
+    height: 400px;
+    margin-top: 800px;
 }
