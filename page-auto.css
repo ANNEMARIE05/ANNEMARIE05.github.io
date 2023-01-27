@@ -58,15 +58,10 @@ header p{
 
   .dropdownmenu li:hover ul {
     display: block;
-    border: 1px solid black;
     position: absolute;
     top: 130px;
     left: 0px;
     z-index: 100;
-  }
-
-  .dropdownmenu li:hover ul li{
-    border: 1px solid black;
   }
 
   .dropdownmenu, .dropdownmenu ul {
@@ -249,5 +244,399 @@ header p{
 }
 .point{
     height: 400px;
-    margin-top: 800px;
+    margin-top: 900px;
+    justify-content: center;
+    display: flex;
+}
+.point div {
+    height: 300px;
+    width: 550px;
+    margin: 15px;
+    position: relative;
+}
+.point div section {
+    display: flex;
+    justify-content: left;
+}
+.point img{
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.point .section1{
+    font-size: 40px;
+    color: #38836d;
+}
+.point h1{
+    font-size: 47px;
+}
+#section1 p{
+    font-family: Verdana;
+    margin: 25px 0;
+}
+#section1 button{
+    height: 35px;
+    width: 180px;
+    font-size: 15px;
+    border-radius: 16px;
+    border: none;
+    background: rgba(0,0,0,.05);
+    color: #000;
+}
+#section1 button:hover{
+    
+    background: rgba(0, 0, 0, 0.146);
+    font-size: 16px;
+}
+#section2 p{
+    margin-top: 30px;
+    font-family: Verdana;
+}
+#section2 section{
+    margin-left: 130px;
+    top: -90px;
+    position: relative;
+}
+#section2 section i{
+    color: #38836d;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.etoile{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.029);
+    text-align: center;
+}
+.etoile .etoile1 h1{
+    position: relative;
+    font-family: Arial;
+    font-size: 48px;
+    top: 50px;
+}
+.etoile .etoile1 p{
+    position: relative;
+    top: 50px;
+    font-family: Verdana;
+}
+select{
+    top: 50px;
+    position: relative;
+    height: 50px;
+    width: 700px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.063);
+    background: rgba(0,0,0,.05);
+}
+.etoile .etoile-float{
+    height: 250px;
+    width: 1250px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.742);
+    margin: 120px 20%;
+    border-radius: 20px;
+}
+.etoile .etoile-float h1{
+    position: relative;
+    font-family: Arial;
+    font-size: 45px;
+    top: 40px;
+}
+.etoile .etoile-float p{
+    position: relative;
+    top: 50px;
+    font-family: Verdana;
+}
+.sourire{
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.sourire div{
+    height: 300px;
+    width: 370px;
+    margin: 200px 10px;
+    position: relative;
+}
+.sourire div h3{
+    position: relative;
+    font-family: Arial;
+    font-size: 25px;
+}
+.sourire div p{
+    position: relative;
+    font-family: Verdana;
+}
+.sourire div i{
+    font-size: 30px;
+}
+.photo{
+    justify-content: center;
+    display: flex;
+}
+.photo div{
+    height: 450px;
+    width: 650px;
+    margin: 100px 50px;
+    border-radius: 20px;
+}
+.photo div img{
+    height: 450px;
+    width: 470px;
+    border-radius: 20px;
+}
+.photo div h1{
+    position: relative;
+    font-family: Tahoma;
+    font-size: 45px;
+    top: 55px;
+    position: relative;
+}
+.photo div p{
+    position: relative;
+    font-family: Verdana;
+    top: 40px;
+    position: relative;
+}
+.rose{
+    height: 760px;
+    background-color: #ffede6;
+}
+.rose h1{
+    position: relative;
+    font-family: Tahoma;
+    font-size: 45px;
+    text-align: center;
+    top: 55px;
+    position: relative;
+}
+.rose .rose-p{
+    position: relative;
+    font-family: Verdana;
+    top: 40px;
+    text-align: center;
+    position: relative;
+}
+.rose .rose-div{
+    justify-content: center;
+    display: flex;
+}
+.rose .rose-div div{
+    border: 1px solid rgba(0, 0, 0, 0.238);
+    height: 380px;
+    width: 380px;
+    margin: 70px 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+.rose .rose-div div h2{
+    position: relative;
+    font-family: Tahoma;
+    margin: 30px 0 20px 30px;
+    position: relative;
+}
+.rose .rose-div p{
+    position: relative;
+    font-family: Verdana;
+    position: relative;
+    margin: 20px 0 20px 30px;
+}
+.rose .rose-div i{
+    font-size: 35px;
+    margin: 30px 0 20px 35px;
+}
+
+.card{
+    height: 740px;
+}
+.card h1{
+    position: relative;
+    font-family: Tahoma;
+    font-size: 45px;
+    text-align: center;
+    top: 55px;
+    position: relative;
+}
+.card .card-p{
+    position: relative;
+    font-family: Verdana;
+    top: 40px;
+    text-align: center;
+    position: relative;
+}
+.card .card-div{
+    justify-content: center;
+    display: flex;
+}
+.card .card-div div{
+    border: 1px solid rgba(0, 0, 0, 0.238);
+    height:250px;
+    width: 380px;
+    margin: 70px 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+.card .card-div div h2{
+    position: relative;
+    font-family: Tahoma;
+    margin: 30px 0 20px 30px;
+    position: relative;
+}
+.card .card-div p{
+    position: relative;
+    font-family: Verdana;
+    position: relative;
+    margin: 20px 0 20px 30px;
+}
+
+.opter{
+    background-color: #ffede6;
+    height: 370px;
+    width: 100%;
+    text-align: center;
+}
+.opter .opter1 h1{
+    position: relative;
+    font-family: Arial;
+    font-size: 48px;
+    top: 60px;
+}
+.opter .opter1 p{
+    position: relative;
+    top: 50px;
+    font-family: Verdana;
+}
+select{
+    top: 50px;
+    position: relative;
+    height: 50px;
+    width: 700px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.063);
+    background: rgba(0,0,0,.05);
+}
+.body-h1{
+    position: relative;
+    font-family: Tahoma;
+    position: relative;
+    text-align: center;
+    margin: 30px 0px 0px;
+    font-size: 37px;
+}
+.exo{
+    display: flex;
+    justify-content: center;
+    height: 610px;
+}
+.exo div{
+    height: 550px;
+    width: 700px;
+    position: relative;
+    font-family: Verdana;
+    position: relative;
+    margin: 40px 20px 20px 10px;
+    line-height: 22px;
+}
+.exo div img{
+    width: 700px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 10px 0 30px 0;
+}
+
+.exo2{
+    display: flex;
+    justify-content: center;
+    height: 610px;
+}
+.exo2 div{
+    height: 550px;
+    width: 700px;
+    line-height: 22px;
+    position: relative;
+    font-family: Verdana;
+    position: relative;
+    margin: 10px 20px 0px 10px;
+}
+.exo2 div img{
+    width: 700px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 10px 0 30px 0;
+}
+.body-btn{
+    margin: 5px 43%;
+    height: 40px;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 16px;
+    border: none;
+    background: rgba(0,0,0,.05);
+    color: #000;
+}
+.body-btn:hover{
+    
+    background: rgba(0, 0, 0, 0.146);
+    font-size: 15px;
+}
+
+
+
+footer .foot-div div{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+
+footer .foot-div section{
+    float: right;
+}
+
+footer section div{
+    margin-left: 700px;
+}
+
+footer section div p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer img{
+    height: 80px;
+    width: 110px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+footer .foot-img p{
+    margin-left: 45px;
+    margin-top: -2px;
+}
+
+footer{
+    height: 150px;
+}
+
+.ma-div1 p{
+    font-size: 45px;
+}
+
+.ma-div1 h4{
+    margin-top: -40px;
+}
+
+footer i{
+    font-size: 30px;
+    margin: 3px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
 }

@@ -198,6 +198,12 @@ input::placeholder{
     height: 90px;
 }
 
+.haut i{
+    position: relative;
+    left: 40px;
+    color: #9747FF;
+}
+
 footer .foot-div div{
     display: inline-block;
     height: 100px;
