@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>formulaire</title>
+ <link rel="shortcut icon" type="image/png" href="image/banniere.webp">
+ <link rel="stylesheet" type="text/css" href="css/cssform.css">
+</head>
+<body>
+ 
+<!--FORMULAIRE DE CONNEXION-->
+ <div id="modFrm">
+  <div class="frmCtn">
+   <div class="logofrm"><img src="image/acceuil auto.jpg"></div>
+   <div class="separator"></div>
+   <div class="frm">
+    <div class="avatar"><img src="image/user.png"></div>
+    <div class="frmadmin">
+     <form method="POST" action="php/client/php/NewListClient.php">
+      <div class="inputFrm">
+       <input type="text" name="txtId" id="txtId" placeholder="Identifiant" required="required" autocomplete="off">
+      </div>
+      <div class="inputFrm">
+       <input type="password" name="txtPass" id="txtPass" placeholder="Mot de passe" required="required" autocomplete="off">
+      </div>
+      <div class="inputFrm" style="margin-top:20px;">
+       <input type="submit" name="btnCnx" value="Se connecter">
+      </div>
+     </form>
+    </div>
+   </div>
+  </div>
+ </div>
+</body>
+</html>
