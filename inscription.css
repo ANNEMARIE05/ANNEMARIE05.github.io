@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(42, 122, 165, 0.314);;
+}
+.inscrire{
+    height: 670px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 122, 165);
+    margin: 100px auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+}
+.image {
+    height: 650px;
+    width: 490px;
+    margin: 0px 15px 0px;
+}
+.formulaire input{
+    height: 40px;
+    width: 450px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+
+}
+.formulaire label{
+    margin: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+.form{
+    margin: 10px;
+}
+.form input{
+    margin: 10px 0px 0px 40px;
+}
+button{
+    height: 45px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.668);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin: 2px;
+    float: right;
+}
+button a{
+    text-decoration: none;
+    color: rgb(53, 144, 193);
+}
+button a:hover{
+    color: #FFF;
+}
+button:hover{
+    background-color: rgb(53, 144, 193);
+    color: white;
+    height: 45px;
+    width: 200px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.image div{
+    float: right;
+    height: 640px;
+    width: 1px;
+    background-color: #FFF;
+    margin: 10px;
+}
+.image img{
+    height: 150px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 50% 25%;
+}
+header{
+    height: 110px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin: 0 300px 0;
+}
+ul li a:hover{
+    color: rgb(42, 122, 165);
+}
+ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+header img{
+    height: 90px;
+    width: 130px;
+    margin: 10px 100px 0px;
+}
+ul li{
+    margin: 25px;
+    font-size: 18px;
+    font-family: Arial;
+    padding: 20px;
+}
