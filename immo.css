@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 110px;
+    width: 100%;
+}
+ul li a:hover{
+    color: rgb(42, 122, 165);
+}
+ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin: 0 300px 0;
+}
+ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+header img{
+    height: 90px;
+    width: 130px;
+    margin: 10px 100px 0px;
+}
+ul li{
+    margin: 25px;
+    font-size: 18px;
+    font-family: Arial;
+    padding: 20px;
+}
+.menu{
+    height: 500px;
+    width: 100%;
+    background: url(image/pexels-pixabay-358636.jpg);
+    background-size: cover;
+    position: absolute;
+}
+.menu h1{
+    margin: 200px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dispo{
+    position: relative;
+    margin-top: 550px;
+    display: flex;
+    justify-content: center;
+}
+.dispo div{
+    margin: 20px;
+    width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 420px;
+}
+.dispo div i{
+    font-size: 50px;
+    margin: 0 0 20px 130px;
+    color: rgb(3, 41, 50);
+}
+.dispo div h3{
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 20px 0;
+    color: rgb(4, 115, 143);
+}
+
+.dispo div p{
+    color: rgb(3, 41, 50);
+    font-size: 16px;
+    margin: 5px;
+}
+button{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(4, 101, 123);
+    margin: 10px 0;
+    border: 2px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+button:hover{
+    background-color: #FFF;
+    color: rgb(4, 101, 123);
+    border: 1px solid rgba(0, 0, 0, 0.291);
+    border-radius: 7px;
+}
+button a {
+    text-decoration: none;
+    color: #FFF;
+}
+button a:hover{
+    text-decoration: none;
+    color: rgb(4, 101, 123);
+}
+
+
+
+footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    width: 100%;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+footer p{
+    margin: 40px 0 0 500px;
+    line-height: 22px;
+}
+footer img{
+    height: 110px;
+    width: 160px;
+    margin: 50px 0px 0px 50px;
+}

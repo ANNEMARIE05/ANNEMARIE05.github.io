@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 110px;
+    width: 100%;
+}
+ul li a:hover{
+    color: rgb(42, 122, 165);
+}
+ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin: 0 300px 0;
+}
+ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+header img{
+    height: 90px;
+    width: 130px;
+    margin: 10px 100px 0px;
+}
+ul li{
+    margin: 25px;
+    font-size: 18px;
+    font-family: Arial;
+    padding: 20px;
+}
+.menu{
+    height: 500px;
+    width: 100%;
+    background: url(image/pexels-pixabay-358636.jpg);
+    background-size: cover;
+    position: absolute;
+}
+.menu h1{
+    margin: 200px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dispo{
+    margin-top: 550px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dispo div{
+    height: 400px;
+    width: 800px;
+    margin: 20px;
+}
+.dispo div p{
+    font-size: 17px;
+}
+.dispo div h1{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    color: rgb(4, 101, 123);
+}
+.dispo div button{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(4, 101, 123);
+    margin: 15px 200px;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+.dispo div button:hover{
+    background-color: #FFF;
+    color: rgb(4, 101, 123);
+    border: 1px solid rgba(0, 0, 0, 0.291);
+    border-radius: 2px;
+}
+.dispo div img{
+    height:300px;
+    width: 400px;
+    margin: 30px;
+}
+
+.dispo1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dispo1 div{
+    height: 350px;
+    width: 800px;
+    margin: 20px;
+}
+.dispo1 div p{
+    font-size: 17px;
+    margin-top: 40px;
+}
+.dispo1 div h1{
+    margin: 40 0 20px 0;
+    font-size: 30px;
+    color: rgb(4, 101, 123);
+}
+.dispo1 div button{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(4, 101, 123);
+    margin: 20px 200px;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+.dispo1 div button:hover{
+    background-color: #FFF;
+    color: rgb(4, 101, 123);
+    border: 1px solid rgba(0, 0, 0, 0.291);
+    border-radius: 2px;
+}
+.dispo1 div img{
+    height:300px;
+    width: 400px;
+    float: right;
+    position: relative;
+    margin: 0 200px;
+}
+
+
+.dispo2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dispo2 div{
+    height: 400px;
+    width: 800px;
+    margin:  20px;
+}
+.dispo2 div p{
+    font-size: 17px;
+}
+.dispo2 div h1{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    color: rgb(4, 101, 123);
+}
+.dispo2 div button{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(4, 101, 123);
+    margin: 20px 200px;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+.dispo2 div button:hover{
+    background-color: #FFF;
+    color: rgb(4, 101, 123);
+    border: 1px solid rgba(0, 0, 0, 0.291);
+    border-radius: 2px;
+}
+.dispo2 div img{
+    height:300px;
+    width: 400px;
+    position: relative;
+}
+.souscrire{
+    height: 200px;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 101, 123);
+}
+.souscrire h1{
+    position: relative;
+    top: 30px;
+}
+.souscrire p{
+    position: relative;
+    top: 40px;
+}
+footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    width: 100%;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+footer p{
+    margin: 40px 0 0 500px;
+    line-height: 22px;
+}
+footer img{
+    height: 110px;
+    width: 160px;
+    margin: 50px 0px 0px 50px;
+}
